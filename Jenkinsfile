@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Nihal106/DockerFile-build-and-scan-with-Trivy---JenkinsPipeline.git'
+                    url: 'https://github.com/sreeharimm-git/DockerFile-build-and-scan-with-Trivy---JenkinsPipeline.git'
             }
         }
 
